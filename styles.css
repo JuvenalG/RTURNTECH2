@@ -1,0 +1,92 @@
+body {
+    background-color: transparent;
+   
+   
+	
+  }
+
+  .main {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#topImg {
+    width: 100%;
+  height:450px;
+  max-width: 1280px;
+  padding-top: 10px;
+}
+
+html {
+  background-image: url('logo2.jpg');
+  background-size: 500px;
+}
+
+h1 {
+  color: #00abed;
+}
+
+
+img {
+    padding-top: 5px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+footer {
+
+  background-color: black;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  
+  height: 40px;
+}
+
+.card {
+  margin-right: 10px;
+  
+  border-style: inset;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #00abed;
+ border-top-style: none;
+ border-left-style: none;
+}
+
+.card-right {
+  margin-right: 0;
+}
+
+.card-img-group {
+  margin-top: 20px;
+  border-bottom: #00abed;
+  
+}
+
+.top-card {
+    border-style: none;
+}
+
+@media only screen and (max-width: 577px) {
+  body {
+    background-color: black;
+  }
+  .card {
+    margin-right: 0px;
+  }
+}
+
+.text-muted{
+  font-size: medium;
+  font-weight: normal;
+  color:black;
+}
